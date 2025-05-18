@@ -1,0 +1,7 @@
+services:
+  workspace:
+    build: ./workspace/docker
+    volumes:
+      - ../:/nextjs-dashboard-tut
+    tty: true
+    stdin_open: true
